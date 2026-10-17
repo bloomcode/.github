@@ -8,7 +8,7 @@ Interview practice for engineers who already program. Every exercise is original
 
 | Track | Python | Java | Go | Read |
 | --- | --- | --- | --- | --- |
-| **Data structures and algorithms**: 282 exercises, 33 chapters, the same exercises in all three languages | [dsa-python](https://github.com/bloomcode/dsa-python) | [dsa-java](https://github.com/bloomcode/dsa-java) | [dsa-go](https://github.com/bloomcode/dsa-go) | [guide](https://bloomcode.github.io/dsa/guide/) · [workbooks](https://bloomcode.github.io/dsa/) |
+| **Data structures and algorithms**: 282 exercises in 26 chapters, the same exercises in all three languages | [dsa-python](https://github.com/bloomcode/dsa-python) | [dsa-java](https://github.com/bloomcode/dsa-java) | [dsa-go](https://github.com/bloomcode/dsa-go) | [guide](https://bloomcode.github.io/dsa/guide/) · [workbooks](https://bloomcode.github.io/dsa/) |
 | **Competitive programming**: fast I/O, language idioms and contest techniques, written for each language | [cp-python](https://github.com/bloomcode/cp-python) | [cp-java](https://github.com/bloomcode/cp-java) | [cp-go](https://github.com/bloomcode/cp-go) | [workbooks](https://bloomcode.github.io/cp/) |
 
 ## Start
