@@ -1,0 +1,16 @@
+name: Idea or request
+description: A new exercise, a topic you want covered, or a change to how the starters work.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: Describe it in your own words. Please don't paste exercises from books, courses or contest sites.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+      description: What it would teach, or what is hard today without it.

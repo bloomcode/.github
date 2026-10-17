@@ -1,0 +1,42 @@
+name: Problem with an exercise
+description: A test rejects a correct answer, a prompt or example is wrong or unclear, or a solution has a bug.
+labels: [bug]
+body:
+  - type: input
+    id: exercise
+    attributes:
+      label: Exercise
+      description: The id from the block header, for example 3.2.
+      placeholder: "3.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong?
+      options:
+        - The test rejects a correct answer
+        - The test accepts a wrong answer
+        - The prompt or example is wrong or unclear
+        - The answer key's solution is wrong
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What you expected, what happened, and the test output if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Your code (optional)
+      description: The smallest version that shows the problem.
+      render: text
+  - type: input
+    id: env
+    attributes:
+      label: Language version and OS
+      placeholder: Python 3.12 on macOS / JDK 21 on Ubuntu / Go 1.24 on Windows

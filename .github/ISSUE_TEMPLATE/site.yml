@@ -1,0 +1,33 @@
+name: Problem with the site
+description: A page on bloomcode.github.io looks broken, a link goes nowhere, or a visualizer misbehaves.
+labels: [bug]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page
+      placeholder: https://bloomcode.github.io/dsa/python/workbook.html
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened
+      description: What you saw and what you expected. A screenshot helps.
+    validations:
+      required: true
+  - type: dropdown
+    id: screen
+    attributes:
+      label: Screen
+      multiple: true
+      options:
+        - Desktop
+        - Phone
+        - Light theme
+        - Dark theme
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: Safari 19 on iOS
