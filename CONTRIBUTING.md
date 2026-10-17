@@ -6,19 +6,15 @@ Thanks for helping. The most useful contributions are reports: a test that rejec
 
 Open an issue on the repo you are working in, usually your starter's upstream (for example [dsa-python](https://github.com/bloomcode/dsa-python)). The issue form asks for the exercise id, what went wrong and your language version. A short piece of code that shows the problem makes it quick to fix.
 
-## Where changes are made
+## How fixes happen
 
-- **Starters** (`dsa-python`, `cp-go`, ...) are generated. Don't open pull requests against them: they would be overwritten on the next sync.
-- **Solutions repos** (`dsa-python-solutions`, ...) hold every exercise, its reference solution and its test. Fixes land here, then flow to the starter and the site.
-- **bloomcode.github.io** holds the page templates and the concept guide; exercise text on the pages comes from the solutions repos.
+The starters (`dsa-python`, `cp-go`, ...) are generated from the maintainer's source, along with the workbooks and answer keys on the site. So the way to get something changed is an issue, not a pull request: a pull request against a starter would be overwritten on the next update.
 
-Pull requests to a solutions repo are welcome for small, clear fixes. Each one must:
+When the fix lands, it appears in the starter and on the site, and the issue gets a link to it. Pull it into your copy with the steps under **Getting updates** in your starter's README.
 
-- keep the exercise block format (`==== EX ch.num | Title | Level`, then PROMPT, EXAMPLE and BIGO lines);
-- pass the repo's tests and `python tools/check_track.py`;
-- for the DSA track, change Python, Java and Go together, since the three share ids, titles, levels and examples.
+If you want to propose a code change, paste it into the issue. For a DSA exercise, say which language you tried: the three languages share ids, titles, levels and examples, so a fix is made in all three.
 
-For anything larger, open an issue first so we can agree on it.
+For a new exercise or topic, use the **Idea or request** form.
 
 ## Originality
 

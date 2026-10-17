@@ -2,7 +2,7 @@
 
 Interview practice for engineers who already program. Every exercise is original, comes with its own test, and has a worked solution you can check against when you are done.
 
-**Site:** [bloomcode.github.io](https://bloomcode.github.io/): concept guide, workbooks and answer keys.
+**New here? Start at [bloomcode.github.io](https://bloomcode.github.io/).** It says which track to pick, which exercises to do first and later, and links every guide, workbook, answer key and starter.
 
 ## Tracks
 
